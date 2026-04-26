@@ -6,6 +6,9 @@ const translations = {
     businessesPageTitle: "Front | Digital Solutions for Businesses",
     businessesMetaDescription:
       "Front builds strategy-led websites, conversion systems, automation, and digital ecosystems for ambitious businesses.",
+    omertaCasePageTitle: "Front | Omerta Sea Experience Case Study",
+    omertaCaseMetaDescription:
+      "Case study for Omerta Sea Experience, a premium sea-experience project built by Front.",
     navAria: "Main navigation",
     languageAria: "Language selector",
     navHome: "Home",
@@ -64,6 +67,57 @@ const translations = {
     processTwoTitle: "Strategic Planning",
     processThreeTitle: "Client Empowerment",
     processFourTitle: "Optional Implementation",
+    differencePill: "The Difference We Make",
+    differenceTitle: "Why Front?",
+    differenceText:
+      "At <strong>Front</strong>, we combine strategic clarity with executional precision to help businesses grow through stronger websites, cleaner systems, and measurable digital infrastructure.",
+    differencePhoneKicker: "Built for modern growth",
+    differencePhoneText:
+      "We combine consulting precision and digital execution to help businesses scale with more confidence.",
+    differenceCopyText:
+      "From websites to full digital ecosystems, we create scalable systems designed to support growth, efficiency, and stronger customer journeys.",
+    differenceCopyStrong: "Websites, automation, CRM, and AI.",
+    differenceNoteTitle: "Consulting that turns into action",
+    differenceNoteText:
+      "We move from research and audits into implementation, so insights do not stay in slides. They become real systems, pages, and workflows.",
+    casesTitle: "Cases",
+    casesText:
+      "Explore selected work across websites, platforms, and digital systems built to help ambitious businesses grow.",
+    caseOneCategory: "Premium Sea Experience",
+    caseOneTitle: "Omerta Sea Experience",
+    caseOneYear: "2023",
+    caseTwoCategory: "Performance Website",
+    caseTwoTitle: "DD-Performance",
+    caseTwoYear: "2025",
+    caseThreeCategory: "Travel App",
+    caseThreeTitle: "Splitrip",
+    caseThreeYear: "2021",
+    caseThreeBrand: "SPLITRIP",
+    caseFourCategory: "CRM & Automation",
+    caseFourTitle: "LeadFlow OS",
+    caseFourYear: "2025",
+    casesHint: "Scroll to explore more work.",
+    omertaKicker: "Premium Sea Experience - OMERTA SEA EXPERIENCE",
+    omertaTitle: "Full Brand & Booking Experience for Omerta Sea Experience",
+    omertaClientName: "Omerta Sea Experience",
+    omertaMetaYearLabel: "Year",
+    omertaMetaYearValue: "2023",
+    omertaMetaClientLabel: "Client",
+    omertaMetaClientValue: "Omerta Sea Experience",
+    omertaMetaIndustryLabel: "Industry",
+    omertaMetaIndustryValue: "Premium Hospitality",
+    omertaMetaScopeLabel: "Scope",
+    omertaMetaScopeValue: "Website, Booking Flow, Brand Experience",
+    omertaVisualEyebrow: "Private Sea Escapes in Greece",
+    omertaVisualTitle: "Omerta Sea Experience",
+    omertaVisualText:
+      "Premium booking experience, elevated positioning, and a digital presence designed to reflect exclusivity.",
+    omertaOverviewPill: "Overview",
+    omertaOverviewText:
+      "Front shaped a cleaner brand presentation and a premium booking-first experience so Omerta Sea Experience could present its service with more trust and clarity online.",
+    omertaDeliverablesPill: "Deliverables",
+    omertaDeliverablesText:
+      "Positioning refinement, website design, user flow structure, booking logic, and a more premium visual direction across the digital experience.",
     requestPill: "Request",
     requestTitle: "Need a strategy-led website that feels as polished as your business?",
     businessHeroKicker: "Helping businesses turn attention into measurable growth",
@@ -71,9 +125,48 @@ const translations = {
     businessHeroText:
       "Running a modern business means your website, offer, content, CRM, and follow-up need to work together. We build the strategy and digital infrastructure behind that system, so visitors understand you faster, trust you sooner, and convert with less friction.",
     businessResultsPill: "Results",
-    businessResultsTitle: "What Your Business Gains",
+    businessResultsTitle: "What Your Business Gets With Front",
     businessResultsText:
-      "From clearer positioning to smoother sales operations, here is what changes in practice.",
+      "A cleaner digital presence, a stronger website, and systems that support growth.",
+    businessAgencyCardOneTitle: "Clearer positioning",
+    businessAgencyCardOneText:
+      "Your business becomes easier to understand, easier to trust, and easier to choose.",
+    businessAgencyCardTwoTitle: "A better website",
+    businessAgencyCardTwoText:
+      "Cleaner structure, stronger design, and smoother user flow that turns more attention into real enquiries.",
+    businessAgencyCardThreeTitle: "Connected operations",
+    businessAgencyCardThreeText:
+      "Your CRM, automations, and follow-up systems work together instead of creating extra manual work.",
+    businessAgencyImageAlt: "Athens skyline with the Acropolis",
+    businessAgencyImageCaption: "Athens-based digital agency.",
+    businessServicesPill: "Core Services",
+    businessServicesTitle: "Our Core Services for Growing Businesses",
+    businessServicesText:
+      "Strategy-led work that sharpens your positioning, improves conversion, and builds a stronger digital operating system around your business.",
+    agencyServiceOneTitle: "Custom Software",
+    agencyServiceOneText:
+      "We design and build custom internal tools, client portals, and operational systems tailored to the way your business actually works.",
+    agencyServiceOneNote: "Built around your workflow, not a template.",
+    agencyServiceTwoTitle: "Website Design & Development",
+    agencyServiceTwoText:
+      "Premium websites designed to feel modern, load fast, and present your business with more credibility.",
+    agencyServiceTwoNote: "Looks better, performs better, converts better.",
+    agencyServiceThreeTitle: "Booking Systems",
+    agencyServiceThreeText:
+      "We build smooth booking flows for appointments, reservations, and enquiries so clients can move from interest to confirmed action with less friction.",
+    agencyServiceThreeNote: "Smoother booking, fewer missed opportunities.",
+    agencyServiceFourTitle: "CRM & Automation",
+    agencyServiceFourText:
+      "We connect forms, pipelines, follow-up, and internal workflows so your team spends less time chasing and more time closing.",
+    agencyServiceFourNote: "Cleaner operations behind the scenes.",
+    agencyServiceFiveTitle: "AI Implementation",
+    agencyServiceFiveText:
+      "Practical AI systems for research, content, support, and operations that save time without adding complexity.",
+    agencyServiceFiveNote: "Real efficiency, not AI theatre.",
+    agencyServiceSixTitle: "Analytics & Growth Insights",
+    agencyServiceSixText:
+      "We set up the tracking and reporting layer that shows what is driving leads, where the friction is, and what to improve next.",
+    agencyServiceSixNote: "Clear visibility for smarter decisions.",
     businessGainOneTitle: "A website that sells the value",
     businessGainOneText:
       "Clear messaging, modern structure, and conversion paths that make your offer easy to understand and easy to act on.",
@@ -105,6 +198,9 @@ const translations = {
     businessesPageTitle: "Front | Digital Λύσεις για Επιχειρήσεις",
     businessesMetaDescription:
       "Η Front χτίζει strategy-led websites, conversion συστήματα, automations και digital ecosystems για φιλόδοξες επιχειρήσεις.",
+    omertaCasePageTitle: "Front | Omerta Sea Experience Case Study",
+    omertaCaseMetaDescription:
+      "Case study για το Omerta Sea Experience, ένα premium sea-experience project από τη Front.",
     navAria: "Κύρια πλοήγηση",
     languageAria: "Επιλογή γλώσσας",
     navHome: "Αρχική",
@@ -163,6 +259,57 @@ const translations = {
     processTwoTitle: "Στρατηγικός Σχεδιασμός",
     processThreeTitle: "Ενδυνάμωση Πελάτη",
     processFourTitle: "Προαιρετική Υλοποίηση",
+    differencePill: "Η Διαφορά που Φέρνουμε",
+    differenceTitle: "Γιατί Front;",
+    differenceText:
+      "Στη <strong>Front</strong>, συνδυάζουμε στρατηγική καθαρότητα με executional ακρίβεια ώστε οι επιχειρήσεις να αναπτύσσονται μέσα από πιο δυνατά websites, πιο καθαρά systems και μετρήσιμη digital υποδομή.",
+    differencePhoneKicker: "Χτισμένο για σύγχρονη ανάπτυξη",
+    differencePhoneText:
+      "Συνδυάζουμε consulting ακρίβεια και digital execution για να βοηθάμε επιχειρήσεις να μεγαλώνουν με περισσότερη σιγουριά.",
+    differenceCopyText:
+      "Από websites μέχρι ολοκληρωμένα digital ecosystems, δημιουργούμε scalable systems σχεδιασμένα να στηρίζουν ανάπτυξη, αποδοτικότητα και καλύτερα customer journeys.",
+    differenceCopyStrong: "Websites, automation, CRM και AI.",
+    differenceNoteTitle: "Consulting που γίνεται πράξη",
+    differenceNoteText:
+      "Περνάμε από research και audits σε implementation, ώστε τα insights να μη μένουν σε slides. Γίνονται πραγματικά systems, pages και workflows.",
+    casesTitle: "Cases",
+    casesText:
+      "Δες επιλεγμένη δουλειά σε websites, platforms και digital systems που σχεδιάστηκαν για να βοηθούν φιλόδοξες επιχειρήσεις να αναπτύσσονται.",
+    caseOneCategory: "Premium Sea Experience",
+    caseOneTitle: "Omerta Sea Experience",
+    caseOneYear: "2023",
+    caseTwoCategory: "Performance Website",
+    caseTwoTitle: "DD-Performance",
+    caseTwoYear: "2025",
+    caseThreeCategory: "Travel App",
+    caseThreeTitle: "Splitrip",
+    caseThreeYear: "2021",
+    caseThreeBrand: "SPLITRIP",
+    caseFourCategory: "CRM & Automation",
+    caseFourTitle: "LeadFlow OS",
+    caseFourYear: "2025",
+    casesHint: "Κάνε scroll για να δεις περισσότερη δουλειά.",
+    omertaKicker: "Premium Sea Experience - OMERTA SEA EXPERIENCE",
+    omertaTitle: "Ολοκληρωμένο Brand & Booking Experience για το Omerta Sea Experience",
+    omertaClientName: "Omerta Sea Experience",
+    omertaMetaYearLabel: "Year",
+    omertaMetaYearValue: "2023",
+    omertaMetaClientLabel: "Client",
+    omertaMetaClientValue: "Omerta Sea Experience",
+    omertaMetaIndustryLabel: "Industry",
+    omertaMetaIndustryValue: "Premium Hospitality",
+    omertaMetaScopeLabel: "Scope",
+    omertaMetaScopeValue: "Website, Booking Flow, Brand Experience",
+    omertaVisualEyebrow: "Private Sea Escapes in Greece",
+    omertaVisualTitle: "Omerta Sea Experience",
+    omertaVisualText:
+      "Premium booking experience, πιο δυνατό positioning και digital παρουσία σχεδιασμένη να αποπνέει exclusivity.",
+    omertaOverviewPill: "Overview",
+    omertaOverviewText:
+      "Η Front διαμόρφωσε πιο καθαρή brand παρουσία και ένα premium booking-first experience ώστε το Omerta Sea Experience να παρουσιάζει την υπηρεσία του με περισσότερη εμπιστοσύνη και σαφήνεια online.",
+    omertaDeliverablesPill: "Deliverables",
+    omertaDeliverablesText:
+      "Positioning refinement, website design, user flow structure, booking logic και πιο premium visual direction σε όλη τη digital εμπειρία.",
     requestPill: "Αίτημα",
     requestTitle: "Χρειάζεσαι ένα strategy-led website που να δείχνει τόσο δυνατό όσο η επιχείρησή σου;",
     businessHeroKicker: "Βοηθάμε επιχειρήσεις να μετατρέπουν την προσοχή σε μετρήσιμη ανάπτυξη",
@@ -170,9 +317,48 @@ const translations = {
     businessHeroText:
       "Μια σύγχρονη επιχείρηση χρειάζεται website, προσφορά, περιεχόμενο, CRM και follow-up που δουλεύουν μαζί. Χτίζουμε τη στρατηγική και την digital υποδομή πίσω από αυτό το σύστημα, ώστε οι επισκέπτες να σε καταλαβαίνουν γρηγορότερα, να σε εμπιστεύονται πιο εύκολα και να κάνουν το επόμενο βήμα με λιγότερη τριβή.",
     businessResultsPill: "Αποτελέσματα",
-    businessResultsTitle: "Τι Κερδίζει η Επιχείρησή Σου",
+    businessResultsTitle: "Τι Κερδίζει η Επιχείρησή Σου με τη Front",
     businessResultsText:
-      "Από πιο καθαρό positioning μέχρι πιο οργανωμένες πωλήσεις, αυτά είναι που αλλάζουν στην πράξη.",
+      "Πιο καθαρή digital παρουσία, πιο δυνατό website και συστήματα που στηρίζουν την ανάπτυξη.",
+    businessAgencyCardOneTitle: "Πιο καθαρό positioning",
+    businessAgencyCardOneText:
+      "Η επιχείρησή σου γίνεται πιο εύκολη στην κατανόηση, πιο αξιόπιστη και πιο εύκολη στην επιλογή.",
+    businessAgencyCardTwoTitle: "Καλύτερο website",
+    businessAgencyCardTwoText:
+      "Πιο καθαρή δομή, πιο δυνατό design και πιο ομαλή ροή που μετατρέπει περισσότερη προσοχή σε πραγματικά enquiries.",
+    businessAgencyCardThreeTitle: "Συνδεδεμένες λειτουργίες",
+    businessAgencyCardThreeText:
+      "Το CRM, τα automations και τα follow-up systems δουλεύουν μαζί αντί να δημιουργούν παραπάνω χειροκίνητη δουλειά.",
+    businessAgencyImageAlt: "Ο ορίζοντας της Αθήνας με την Ακρόπολη",
+    businessAgencyImageCaption: "Digital agency με βάση την Αθήνα.",
+    businessServicesPill: "Core Services",
+    businessServicesTitle: "Οι Βασικές Υπηρεσίες της Front για Αναπτυσσόμενες Επιχειρήσεις",
+    businessServicesText:
+      "Strategy-led δουλειά που δυναμώνει το positioning, βελτιώνει το conversion και χτίζει ένα πιο ισχυρό digital operating system γύρω από την επιχείρησή σου.",
+    agencyServiceOneTitle: "Custom Software",
+    agencyServiceOneText:
+      "Σχεδιάζουμε και υλοποιούμε custom internal tools, client portals και operational systems προσαρμοσμένα στον τρόπο που δουλεύει πραγματικά η επιχείρησή σου.",
+    agencyServiceOneNote: "Χτισμένο πάνω στο workflow σου, όχι σε έτοιμο template.",
+    agencyServiceTwoTitle: "Website Design & Development",
+    agencyServiceTwoText:
+      "Premium websites που δείχνουν σύγχρονα, φορτώνουν γρήγορα και παρουσιάζουν την επιχείρησή σου με περισσότερη αξιοπιστία.",
+    agencyServiceTwoNote: "Δείχνει καλύτερο, αποδίδει καλύτερα, μετατρέπει καλύτερα.",
+    agencyServiceThreeTitle: "Booking Systems",
+    agencyServiceThreeText:
+      "Χτίζουμε ομαλά booking flows για appointments, reservations και enquiries ώστε οι πελάτες να περνούν από το ενδιαφέρον στην επιβεβαιωμένη ενέργεια με λιγότερη τριβή.",
+    agencyServiceThreeNote: "Πιο ομαλό booking, λιγότερες χαμένες ευκαιρίες.",
+    agencyServiceFourTitle: "CRM & Automation",
+    agencyServiceFourText:
+      "Συνδέουμε φόρμες, pipelines, follow-up και internal workflows ώστε η ομάδα σου να κυνηγά λιγότερο και να κλείνει περισσότερο.",
+    agencyServiceFourNote: "Πιο καθαρές λειτουργίες στο παρασκήνιο.",
+    agencyServiceFiveTitle: "AI Implementation",
+    agencyServiceFiveText:
+      "Πρακτικά AI systems για research, content, support και operations που εξοικονομούν χρόνο χωρίς να προσθέτουν πολυπλοκότητα.",
+    agencyServiceFiveNote: "Πραγματική αποδοτικότητα, όχι AI theatre.",
+    agencyServiceSixTitle: "Analytics & Growth Insights",
+    agencyServiceSixText:
+      "Στήνουμε το tracking και reporting layer που δείχνει τι φέρνει leads, πού υπάρχει friction και τι πρέπει να βελτιωθεί μετά.",
+    agencyServiceSixNote: "Καθαρή εικόνα για πιο έξυπνες αποφάσεις.",
     businessGainOneTitle: "Website που πουλά την αξία",
     businessGainOneText:
       "Καθαρό μήνυμα, σύγχρονη δομή και conversion paths που κάνουν την προσφορά σου εύκολη στην κατανόηση και στην απόφαση.",
