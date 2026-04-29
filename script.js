@@ -9,6 +9,13 @@ const translations = {
     omertaCasePageTitle: "Front | Omerta Sea Experience Case Study",
     omertaCaseMetaDescription:
       "Case study for Omerta Sea Experience, a premium sea-experience project built by Front.",
+    zanteCasePageTitle: "Front | Zante Blue Cruises Case Study",
+    zanteCaseMetaDescription:
+      "Case study for Zante Blue Cruises, a premium private-charter website project built by Front.",
+    menuLabel: "Menu",
+    menuOpenAria: "Open menu",
+    menuCloseAria: "Close menu",
+    mobileMenuAria: "Mobile navigation",
     navAria: "Main navigation",
     languageAria: "Language selector",
     navHome: "Home",
@@ -86,8 +93,8 @@ const translations = {
     caseOneCategory: "Premium Sea Experience",
     caseOneTitle: "Omerta Sea Experience",
     caseOneYear: "2023",
-    caseTwoCategory: "Performance Website",
-    caseTwoTitle: "DD-Performance",
+    caseTwoCategory: "Private Boat Charters",
+    caseTwoTitle: "Zante Blue Cruises",
     caseTwoYear: "2025",
     caseThreeCategory: "Travel App",
     caseThreeTitle: "Splitrip",
@@ -97,8 +104,8 @@ const translations = {
     caseFourTitle: "LeadFlow OS",
     caseFourYear: "2025",
     casesHint: "Scroll to explore more work.",
-    omertaKicker: "Premium Sea Experience - OMERTA SEA EXPERIENCE",
-    omertaTitle: "Full Brand & Booking Experience for Omerta Sea Experience",
+    omertaKicker: "Premium Sea Rentals - OMERTA-SEA.COM",
+    omertaTitle: "Omerta Sea Experience",
     omertaClientName: "Omerta Sea Experience",
     omertaMetaYearLabel: "Year",
     omertaMetaYearValue: "2023",
@@ -118,6 +125,47 @@ const translations = {
     omertaDeliverablesPill: "Deliverables",
     omertaDeliverablesText:
       "Positioning refinement, website design, user flow structure, booking logic, and a more premium visual direction across the digital experience.",
+    caseStudyWebsiteLink: "Visit Website",
+    caseStudyServicesTitle: "Services used",
+    omertaInsightTitle: "Insight",
+    omertaInsightLabel: "Leads",
+    omertaInsightValue: "85%",
+    omertaInsightText:
+      "Resulted from sharper positioning, a cleaner premium presentation, and a booking journey designed to turn attention into higher-intent enquiries.",
+    omertaServiceOne: "Web Development",
+    omertaServiceTwo: "UX/UI Design",
+    omertaServiceThree: "Mobile UI",
+    omertaServiceFour: "Booking Flow Strategy",
+    omertaServiceFive: "Digital Positioning",
+    omertaServiceSix: "Conversion Planning",
+    zanteKicker: "Private Boat Charters - ZANTE BLUE CRUISES",
+    zanteTitle: "Zante Blue Cruises",
+    zanteClientName: "Zante Blue Cruises",
+    zanteMetaYearLabel: "Year",
+    zanteMetaYearValue: "2025",
+    zanteMetaClientLabel: "Client",
+    zanteMetaClientValue: "Zante Blue Cruises",
+    zanteMetaIndustryLabel: "Industry",
+    zanteMetaIndustryValue: "Premium Tourism",
+    zanteMetaScopeLabel: "Scope",
+    zanteMetaScopeValue: "Website, Cruise Booking Flow, Brand Experience",
+    zanteOverviewPill: "Overview",
+    zanteOverviewText:
+      "Front shaped a cleaner, more trust-led digital presence for Zante Blue Cruises, helping the brand present private Zakynthos cruise experiences with stronger clarity, a better first impression, and a smoother booking journey.",
+    zanteDeliverablesPill: "Deliverables",
+    zanteDeliverablesText:
+      "Positioning refinement, website design, mobile optimization, booking flow structure, and a more premium visual direction across the full experience.",
+    zanteInsightTitle: "Insight",
+    zanteInsightLabel: "Bookings",
+    zanteInsightValue: "78%",
+    zanteInsightText:
+      "Resulted from a clearer premium offer, smoother mobile browsing, and a more trust-led cruise discovery journey built around direct booking intent.",
+    zanteServiceOne: "Web Development",
+    zanteServiceTwo: "UX/UI Design",
+    zanteServiceThree: "Mobile UI",
+    zanteServiceFour: "Cruise Journey Mapping",
+    zanteServiceFive: "Tourism Positioning",
+    zanteServiceSix: "Booking Flow Strategy",
     requestPill: "Request",
     requestTitle: "Need a strategy-led website that feels as polished as your business?",
     businessHeroKicker: "Helping businesses turn attention into measurable growth",
@@ -201,6 +249,13 @@ const translations = {
     omertaCasePageTitle: "Front | Omerta Sea Experience Case Study",
     omertaCaseMetaDescription:
       "Case study για το Omerta Sea Experience, ένα premium sea-experience project από τη Front.",
+    zanteCasePageTitle: "Front | Zante Blue Cruises Case Study",
+    zanteCaseMetaDescription:
+      "Case study για το Zante Blue Cruises, ένα premium private-charter website project από τη Front.",
+    menuLabel: "Μενού",
+    menuOpenAria: "Άνοιγμα μενού",
+    menuCloseAria: "Κλείσιμο μενού",
+    mobileMenuAria: "Πλοήγηση κινητού",
     navAria: "Κύρια πλοήγηση",
     languageAria: "Επιλογή γλώσσας",
     navHome: "Αρχική",
@@ -278,8 +333,8 @@ const translations = {
     caseOneCategory: "Premium Sea Experience",
     caseOneTitle: "Omerta Sea Experience",
     caseOneYear: "2023",
-    caseTwoCategory: "Performance Website",
-    caseTwoTitle: "DD-Performance",
+    caseTwoCategory: "Private Boat Charters",
+    caseTwoTitle: "Zante Blue Cruises",
     caseTwoYear: "2025",
     caseThreeCategory: "Travel App",
     caseThreeTitle: "Splitrip",
@@ -289,8 +344,8 @@ const translations = {
     caseFourTitle: "LeadFlow OS",
     caseFourYear: "2025",
     casesHint: "Κάνε scroll για να δεις περισσότερη δουλειά.",
-    omertaKicker: "Premium Sea Experience - OMERTA SEA EXPERIENCE",
-    omertaTitle: "Ολοκληρωμένο Brand & Booking Experience για το Omerta Sea Experience",
+    omertaKicker: "Premium Sea Rentals - OMERTA-SEA.COM",
+    omertaTitle: "Omerta Sea Experience",
     omertaClientName: "Omerta Sea Experience",
     omertaMetaYearLabel: "Year",
     omertaMetaYearValue: "2023",
@@ -310,6 +365,47 @@ const translations = {
     omertaDeliverablesPill: "Deliverables",
     omertaDeliverablesText:
       "Positioning refinement, website design, user flow structure, booking logic και πιο premium visual direction σε όλη τη digital εμπειρία.",
+    caseStudyWebsiteLink: "Visit Website",
+    caseStudyServicesTitle: "Services used",
+    omertaInsightTitle: "Insight",
+    omertaInsightLabel: "Leads",
+    omertaInsightValue: "85%",
+    omertaInsightText:
+      "Προέκυψε από πιο καθαρό positioning, πιο premium παρουσίαση και ένα booking journey σχεδιασμένο να μετατρέπει το ενδιαφέρον σε πιο υψηλής πρόθεσης enquiries.",
+    omertaServiceOne: "Web Development",
+    omertaServiceTwo: "UX/UI Design",
+    omertaServiceThree: "Mobile UI",
+    omertaServiceFour: "Booking Flow Strategy",
+    omertaServiceFive: "Digital Positioning",
+    omertaServiceSix: "Conversion Planning",
+    zanteKicker: "Private Boat Charters - ZANTE BLUE CRUISES",
+    zanteTitle: "Zante Blue Cruises",
+    zanteClientName: "Zante Blue Cruises",
+    zanteMetaYearLabel: "Year",
+    zanteMetaYearValue: "2025",
+    zanteMetaClientLabel: "Client",
+    zanteMetaClientValue: "Zante Blue Cruises",
+    zanteMetaIndustryLabel: "Industry",
+    zanteMetaIndustryValue: "Premium Tourism",
+    zanteMetaScopeLabel: "Scope",
+    zanteMetaScopeValue: "Website, Cruise Booking Flow, Brand Experience",
+    zanteOverviewPill: "Overview",
+    zanteOverviewText:
+      "Η Front διαμόρφωσε μια πιο καθαρή και trust-led digital παρουσία για το Zante Blue Cruises, ώστε το brand να παρουσιάζει private cruise experiences στη Ζάκυνθο με περισσότερη σαφήνεια, καλύτερη πρώτη εντύπωση και πιο ομαλή booking διαδρομή.",
+    zanteDeliverablesPill: "Deliverables",
+    zanteDeliverablesText:
+      "Positioning refinement, website design, mobile optimization, booking flow structure και πιο premium visual direction σε όλη την εμπειρία.",
+    zanteInsightTitle: "Insight",
+    zanteInsightLabel: "Bookings",
+    zanteInsightValue: "78%",
+    zanteInsightText:
+      "Προέκυψε από πιο καθαρή premium προσφορά, πιο ομαλή mobile πλοήγηση και ένα trust-led cruise discovery journey χτισμένο γύρω από direct booking intent.",
+    zanteServiceOne: "Web Development",
+    zanteServiceTwo: "UX/UI Design",
+    zanteServiceThree: "Mobile UI",
+    zanteServiceFour: "Cruise Journey Mapping",
+    zanteServiceFive: "Tourism Positioning",
+    zanteServiceSix: "Booking Flow Strategy",
     requestPill: "Αίτημα",
     requestTitle: "Χρειάζεσαι ένα strategy-led website που να δείχνει τόσο δυνατό όσο η επιχείρησή σου;",
     businessHeroKicker: "Βοηθάμε επιχειρήσεις να μετατρέπουν την προσοχή σε μετρήσιμη ανάπτυξη",
@@ -389,6 +485,59 @@ const yearElement = document.querySelector("#year");
 const revealElements = document.querySelectorAll(".reveal");
 const languageButtons = document.querySelectorAll("[data-language]");
 const metaDescription = document.querySelector('meta[name="description"]');
+const navToggle = document.querySelector(".nav-toggle");
+const mobileMenu = document.querySelector(".mobile-menu");
+const menuCloseButtons = document.querySelectorAll("[data-menu-close]");
+const mobileMenuLinks = document.querySelectorAll(".mobile-menu a");
+const chipRows = document.querySelectorAll(".chip-row");
+let chipRowSyncFrame = null;
+
+const syncChipRows = () => {
+  chipRows.forEach((row) => {
+    const templateGroup = row.querySelector(".chip-row-group");
+    const stage = row.closest(".chip-stage");
+
+    if (!templateGroup || !stage) {
+      return;
+    }
+
+    row.querySelectorAll(".chip-row-group:not(:first-child)").forEach((group) => group.remove());
+
+    const rowStyles = window.getComputedStyle(row);
+    const gap = parseFloat(rowStyles.columnGap || rowStyles.gap) || 0;
+    const baseWidth = templateGroup.getBoundingClientRect().width;
+
+    if (!baseWidth) {
+      return;
+    }
+
+    const loopDistance = baseWidth + gap;
+    row.style.setProperty("--loop-distance", `${loopDistance}px`);
+
+    let cloneCount = 0;
+    while (row.scrollWidth < stage.clientWidth + loopDistance && cloneCount < 12) {
+      const clone = templateGroup.cloneNode(true);
+      clone.setAttribute("aria-hidden", "true");
+      row.appendChild(clone);
+      cloneCount += 1;
+    }
+  });
+};
+
+const scheduleChipRowSync = () => {
+  if (!chipRows.length) {
+    return;
+  }
+
+  if (chipRowSyncFrame) {
+    window.cancelAnimationFrame(chipRowSyncFrame);
+  }
+
+  chipRowSyncFrame = window.requestAnimationFrame(() => {
+    syncChipRows();
+    chipRowSyncFrame = null;
+  });
+};
 
 const getInitialLanguage = () => {
   const savedLanguage = localStorage.getItem("front-language");
@@ -438,10 +587,64 @@ const setLanguage = (language) => {
   });
 
   localStorage.setItem("front-language", language);
+  scheduleChipRowSync();
 };
 
 if (yearElement) {
   yearElement.textContent = new Date().getFullYear();
+}
+
+const closeMobileMenu = () => {
+  if (!navToggle || !mobileMenu) {
+    return;
+  }
+
+  navToggle.setAttribute("aria-expanded", "false");
+  mobileMenu.hidden = true;
+  document.body.classList.remove("mobile-menu-open");
+};
+
+const openMobileMenu = () => {
+  if (!navToggle || !mobileMenu) {
+    return;
+  }
+
+  navToggle.setAttribute("aria-expanded", "true");
+  mobileMenu.hidden = false;
+  document.body.classList.add("mobile-menu-open");
+};
+
+if (navToggle && mobileMenu) {
+  navToggle.addEventListener("click", () => {
+    const isExpanded = navToggle.getAttribute("aria-expanded") === "true";
+    if (isExpanded) {
+      closeMobileMenu();
+    } else {
+      openMobileMenu();
+    }
+  });
+
+  menuCloseButtons.forEach((button) => button.addEventListener("click", closeMobileMenu));
+  mobileMenuLinks.forEach((link) => link.addEventListener("click", closeMobileMenu));
+
+  window.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeMobileMenu();
+    }
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 1040) {
+      closeMobileMenu();
+    }
+  });
+}
+
+window.addEventListener("resize", scheduleChipRowSync);
+window.addEventListener("load", scheduleChipRowSync);
+
+if (document.fonts?.ready) {
+  document.fonts.ready.then(scheduleChipRowSync);
 }
 
 languageButtons.forEach((button) => {

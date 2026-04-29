@@ -35,7 +35,42 @@
           <button class="language-button" type="button" data-language="el" aria-pressed="false">EL</button>
         </div>
       </div>
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        aria-label="Open menu"
+        data-i18n-attr="aria-label:menuOpenAria"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </header>
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <button class="mobile-menu-overlay" type="button" aria-label="Close menu" data-menu-close data-i18n-attr="aria-label:menuCloseAria"></button>
+      <div class="mobile-menu-panel">
+        <div class="mobile-menu-header">
+          <strong data-i18n="menuLabel">Menu</strong>
+          <button class="mobile-menu-close" type="button" aria-label="Close menu" data-menu-close data-i18n-attr="aria-label:menuCloseAria">×</button>
+        </div>
+        <nav class="mobile-menu-links" aria-label="Mobile navigation" data-i18n-attr="aria-label:mobileMenuAria">
+          <a href="#home" data-i18n="navHome">Home</a>
+          <a href="for-businesses.html" data-i18n="navBusinesses">For Businesses</a>
+          <a href="#about" data-i18n="navAbout">About</a>
+          <a href="#services" data-i18n="navServices">Services</a>
+          <a href="#contact" data-i18n="navContact">Contact</a>
+        </nav>
+        <div class="mobile-menu-footer">
+          <a class="mobile-menu-request" href="#contact" data-i18n="navRequest">Request</a>
+          <div class="language-toggle mobile-menu-language" aria-label="Language selector" data-i18n-attr="aria-label:languageAria">
+            <button class="language-button is-active" type="button" data-language="en" aria-pressed="true">EN</button>
+            <button class="language-button" type="button" data-language="el" aria-pressed="false">EL</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <main>
       <section class="hero" id="home">
@@ -119,35 +154,31 @@
 
         <div class="chip-stage reveal delay-1" aria-label="Industries">
           <div class="chip-row">
-            <span data-i18n="chipEdtech">EdTech</span>
-            <span data-i18n="chipPremium">Premium Services</span>
-            <span data-i18n="chipFintech">Fintech</span>
-            <span data-i18n="chipSaas">SaaS</span>
-            <span class="chip-dark" data-i18n="chipCyber">Cybersecurity</span>
-            <span data-i18n="chipEdtech">EdTech</span>
-            <span data-i18n="chipPremium">Premium Services</span>
-            <span data-i18n="chipFintech">Fintech</span>
-            <span data-i18n="chipSaas">SaaS</span>
+            <div class="chip-row-group">
+              <span data-i18n="chipEdtech">EdTech</span>
+              <span data-i18n="chipPremium">Premium Services</span>
+              <span data-i18n="chipFintech">Fintech</span>
+              <span data-i18n="chipSaas">SaaS</span>
+              <span class="chip-dark" data-i18n="chipCyber">Cybersecurity</span>
+            </div>
           </div>
           <div class="chip-row chip-row-offset">
-            <span data-i18n="chipIndustrial">Industrial Manufacturing</span>
-            <span data-i18n="chipMicro">Micro SaaS</span>
-            <span data-i18n="chipEcommerce">E-commerce</span>
-            <span data-i18n="chipInfluencers">Influencers</span>
-            <span class="chip-dark" data-i18n="chipRealEstate">Real estate</span>
-            <span data-i18n="chipIndustrial">Industrial Manufacturing</span>
-            <span data-i18n="chipMicro">Micro SaaS</span>
-            <span data-i18n="chipEcommerce">E-commerce</span>
+            <div class="chip-row-group">
+              <span data-i18n="chipIndustrial">Industrial Manufacturing</span>
+              <span data-i18n="chipMicro">Micro SaaS</span>
+              <span data-i18n="chipEcommerce">E-commerce</span>
+              <span data-i18n="chipInfluencers">Influencers</span>
+              <span class="chip-dark" data-i18n="chipRealEstate">Real estate</span>
+            </div>
           </div>
           <div class="chip-row">
-            <span data-i18n="chipHealthcare">Healthcare</span>
-            <span data-i18n="chipAgencies">Agencies</span>
-            <span data-i18n="chipLogistics">Logistics & Supply Chain</span>
-            <span class="chip-dark" data-i18n="chipHospitality">Hospitality</span>
-            <span data-i18n="chipFashion">Fashion</span>
-            <span data-i18n="chipHealthcare">Healthcare</span>
-            <span data-i18n="chipAgencies">Agencies</span>
-            <span data-i18n="chipLogistics">Logistics & Supply Chain</span>
+            <div class="chip-row-group">
+              <span data-i18n="chipHealthcare">Healthcare</span>
+              <span data-i18n="chipAgencies">Agencies</span>
+              <span data-i18n="chipLogistics">Logistics & Supply Chain</span>
+              <span class="chip-dark" data-i18n="chipHospitality">Hospitality</span>
+              <span data-i18n="chipFashion">Fashion</span>
+            </div>
           </div>
         </div>
       </section>
@@ -305,12 +336,15 @@
           <div class="cases-track" aria-label="Selected work carousel">
             <a class="case-card-link" href="omerta-sea-experience.html" aria-label="Open Omerta Sea Experience case study">
               <article class="case-card case-card-mobile">
-                <div class="case-visual">
-                  <div class="case-shadow-panel"></div>
-                  <div class="case-device-stack">
-                    <div class="case-phone case-phone-left case-phone-sea"></div>
-                    <div class="case-phone case-phone-right case-phone-sea"></div>
-                  </div>
+                <div class="case-visual case-visual-featured">
+                  <img
+                    src="assets/projects/omerta-project1.png"
+                    alt="Omerta Sea Experience featured project preview"
+                    loading="lazy"
+                    decoding="async"
+                    width="1537"
+                    height="1023"
+                  />
                 </div>
                 <div class="case-meta">
                   <p class="case-category" data-i18n="caseOneCategory">Premium Sea Experience</p>
@@ -320,21 +354,25 @@
               </article>
             </a>
 
-            <article class="case-card case-card-website">
-              <div class="case-visual">
-                <div class="case-browser-shell"></div>
-                <div class="case-site-panel">
-                  <span class="case-site-line"></span>
-                  <span class="case-site-line short"></span>
-                  <span class="case-site-button"></span>
+            <a class="case-card-link" href="zante-blue-cruises.html" aria-label="Open Zante Blue Cruises case study">
+              <article class="case-card case-card-website">
+                <div class="case-visual case-visual-featured">
+                  <img
+                    src="assets/projects/zanteblue-project1.png"
+                    alt="Zante Blue Cruises featured project preview"
+                    loading="lazy"
+                    decoding="async"
+                    width="1537"
+                    height="1023"
+                  />
                 </div>
-              </div>
-              <div class="case-meta">
-                <p class="case-category" data-i18n="caseTwoCategory">Performance Website</p>
-                <h3 data-i18n="caseTwoTitle">DD-Performance</h3>
-                <span data-i18n="caseTwoYear">2025</span>
-              </div>
-            </article>
+                <div class="case-meta">
+                  <p class="case-category" data-i18n="caseTwoCategory">Private Boat Charters</p>
+                  <h3 data-i18n="caseTwoTitle">Zante Blue Cruises</h3>
+                  <span data-i18n="caseTwoYear">2025</span>
+                </div>
+              </article>
+            </a>
 
             <article class="case-card case-card-brand">
               <div class="case-visual">

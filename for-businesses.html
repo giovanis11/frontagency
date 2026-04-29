@@ -35,7 +35,42 @@
           <button class="language-button" type="button" data-language="el" aria-pressed="false">EL</button>
         </div>
       </div>
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        aria-label="Open menu"
+        data-i18n-attr="aria-label:menuOpenAria"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </header>
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <button class="mobile-menu-overlay" type="button" aria-label="Close menu" data-menu-close data-i18n-attr="aria-label:menuCloseAria"></button>
+      <div class="mobile-menu-panel">
+        <div class="mobile-menu-header">
+          <strong data-i18n="menuLabel">Menu</strong>
+          <button class="mobile-menu-close" type="button" aria-label="Close menu" data-menu-close data-i18n-attr="aria-label:menuCloseAria">×</button>
+        </div>
+        <nav class="mobile-menu-links" aria-label="Mobile navigation" data-i18n-attr="aria-label:mobileMenuAria">
+          <a href="index.html#home" data-i18n="navHome">Home</a>
+          <a href="for-businesses.html" data-i18n="navBusinesses">For Businesses</a>
+          <a href="index.html#about" data-i18n="navAbout">About</a>
+          <a href="index.html#services" data-i18n="navServices">Services</a>
+          <a href="index.html#contact" data-i18n="navContact">Contact</a>
+        </nav>
+        <div class="mobile-menu-footer">
+          <a class="mobile-menu-request" href="index.html#contact" data-i18n="navRequest">Request</a>
+          <div class="language-toggle mobile-menu-language" aria-label="Language selector" data-i18n-attr="aria-label:languageAria">
+            <button class="language-button is-active" type="button" data-language="en" aria-pressed="true">EN</button>
+            <button class="language-button" type="button" data-language="el" aria-pressed="false">EL</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <main class="business-page">
       <section class="business-hero-shell">
