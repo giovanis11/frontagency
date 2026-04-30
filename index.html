@@ -24,15 +24,19 @@
       <nav class="nav-links">
         <a href="#home" data-i18n="navHome">Home</a>
         <a href="for-businesses.html" data-i18n="navBusinesses">For Businesses</a>
-        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#cases" data-i18n="navAbout">Our Work</a>
         <a href="#services" data-i18n="navServices">Services</a>
         <a href="#contact" data-i18n="navContact">Contact</a>
       </nav>
       <div class="nav-actions">
         <a class="request-link" href="#contact" data-i18n="navRequest">Request</a>
         <div class="language-toggle" aria-label="Language selector" data-i18n-attr="aria-label:languageAria">
-          <button class="language-button is-active" type="button" data-language="el" aria-pressed="true">EL</button>
-          <button class="language-button" type="button" data-language="en" aria-pressed="false">EN</button>
+          <button class="language-button is-active" type="button" data-language="el" aria-pressed="true">
+            <span class="language-flag" aria-hidden="true">🇬🇷</span>
+          </button>
+          <button class="language-button" type="button" data-language="en" aria-pressed="false">
+            <span class="language-flag" aria-hidden="true">🇬🇧</span>
+          </button>
         </div>
       </div>
       <button
@@ -58,15 +62,19 @@
         <nav class="mobile-menu-links" aria-label="Mobile navigation" data-i18n-attr="aria-label:mobileMenuAria">
           <a href="#home" data-i18n="navHome">Home</a>
           <a href="for-businesses.html" data-i18n="navBusinesses">For Businesses</a>
-          <a href="#about" data-i18n="navAbout">About</a>
+          <a href="#cases" data-i18n="navAbout">Our Work</a>
           <a href="#services" data-i18n="navServices">Services</a>
           <a href="#contact" data-i18n="navContact">Contact</a>
         </nav>
         <div class="mobile-menu-footer">
           <a class="mobile-menu-request" href="#contact" data-i18n="navRequest">Request</a>
           <div class="language-toggle mobile-menu-language" aria-label="Language selector" data-i18n-attr="aria-label:languageAria">
-            <button class="language-button is-active" type="button" data-language="el" aria-pressed="true">EL</button>
-            <button class="language-button" type="button" data-language="en" aria-pressed="false">EN</button>
+            <button class="language-button is-active" type="button" data-language="el" aria-pressed="true">
+              <span class="language-flag" aria-hidden="true">🇬🇷</span>
+            </button>
+            <button class="language-button" type="button" data-language="en" aria-pressed="false">
+              <span class="language-flag" aria-hidden="true">🇬🇧</span>
+            </button>
           </div>
         </div>
       </div>
@@ -74,7 +82,9 @@
 
     <main>
       <section class="hero" id="home">
-        <div class="hero-building" aria-hidden="true"></div>
+        <div class="hero-visual" aria-hidden="true">
+          <img src="assets/generated/hero-tech-white-fade-v1.png" alt="" loading="eager" />
+        </div>
         <div class="particle-field" aria-hidden="true"></div>
 
         <div class="hero-inner reveal">
@@ -83,19 +93,80 @@
             Guiding companies to success through innovative strategies, market insights and integrated
             digital ecosystems globally.
           </p>
-          <a class="button button-dark" href="#services"><span data-i18n="heroCta">Explore Services</span> <span>ϟ</span></a>
+          <a class="button button-dark" href="#cases"><span data-i18n="heroCta">Δες Δουλειές Μας</span> <span>ϟ</span></a>
+        </div>
+      </section>
 
-          <div class="loved-row" aria-label="Client proof">
-            <span data-i18n="lovedBy">Loved by</span>
-            <div class="avatars" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <strong data-i18n="proofBusinesses">100+ Businesses</strong>
-            <span class="stars">★★★★★</span>
+      <section class="cases section" id="cases">
+        <div class="cases-heading reveal">
+          <h2 data-i18n="casesTitle">Cases</h2>
+          <p data-i18n="casesText">
+            Explore selected work across websites, platforms, and digital systems built to help
+            ambitious businesses grow.
+          </p>
+        </div>
+
+        <div class="cases-rail reveal delay-1">
+          <div class="cases-track" aria-label="Selected work carousel">
+            <a class="case-card-link case-card-link-featured" href="zante-blue-cruises.html" aria-label="Open Zante Blue Cruises case study">
+              <article class="case-card case-card-website">
+                <div class="case-visual case-visual-featured case-visual-project-full">
+                  <img
+                    src="assets/projects/zanteblue-project-main.png"
+                    alt="Zante Blue Cruises featured project preview"
+                    loading="lazy"
+                    decoding="async"
+                    width="2940"
+                    height="1596"
+                  />
+                </div>
+                <div class="case-meta">
+                  <p class="case-category" data-i18n="caseTwoCategory">Private Boat Charters</p>
+                  <h3 data-i18n="caseTwoTitle">Zante Blue Cruises</h3>
+                </div>
+              </article>
+            </a>
+
+            <a class="case-card-link case-card-link-featured" href="omerta-sea-experience.html" aria-label="Open Omerta Sea Experience case study">
+              <article class="case-card case-card-mobile">
+                <div class="case-visual case-visual-featured case-visual-project-full">
+                  <img
+                    src="assets/projects/omerta-project-main.png"
+                    alt="Omerta Sea Experience featured project preview"
+                    loading="lazy"
+                    decoding="async"
+                    width="2940"
+                    height="1596"
+                  />
+                </div>
+                <div class="case-meta">
+                  <p class="case-category" data-i18n="caseOneCategory">Premium Sea Experience</p>
+                  <h3 data-i18n="caseOneTitle">Omerta Sea Experience</h3>
+                </div>
+              </article>
+            </a>
+
+            <a class="case-card-link case-card-link-featured" href="#cases" aria-label="View Marmoris Cruises project">
+              <article class="case-card case-card-marmoris">
+                <div class="case-visual case-visual-featured case-visual-project-full">
+                  <img
+                    src="assets/projects/marmoris-project-main.png"
+                    alt="Marmoris Cruises featured project preview"
+                    loading="lazy"
+                    decoding="async"
+                    width="2940"
+                    height="1596"
+                  />
+                </div>
+                <div class="case-meta">
+                  <p class="case-category" data-i18n="caseThreeCategory">Zakynthos Boat Rentals</p>
+                  <h3 data-i18n="caseThreeTitle">Marmoris Cruises</h3>
+                </div>
+              </article>
+            </a>
+
           </div>
+          <p class="cases-hint" data-i18n="casesHint">Scroll to explore more work.</p>
         </div>
       </section>
 
@@ -123,297 +194,13 @@
             <strong data-i18n="businessCardMetric">Sharper positioning. Better conversion. Cleaner growth.</strong>
             <a href="for-businesses.html" aria-label="Open business consulting">↳</a>
           </article>
-
-          <article class="service-card service-card-orange reveal delay-1">
-            <span class="corner-icon">⛶</span>
-            <h3 data-i18n="transformationTitle">Digital Transformation</h3>
-            <p data-i18n="transformationText">Build a complete digital ecosystem - website, CRM, and marketing automation</p>
-            <strong data-i18n="transformationMetric">+300% Business Scalability</strong>
-            <a href="#contact" aria-label="Open digital transformation">↳</a>
-          </article>
-
-          <article class="service-card service-card-dark reveal delay-2">
-            <span class="corner-icon">⌘</span>
-            <h3 data-i18n="aiTitle">AI Implementation</h3>
-            <p data-i18n="aiText">Orchestrating AI to streamline operations and drive innovation</p>
-            <strong data-i18n="aiMetric">+120% Workflow Efficiency</strong>
-            <a href="#contact" aria-label="Open AI implementation">↳</a>
-          </article>
-        </div>
-      </section>
-
-      <section class="niches section" id="about">
-        <div class="niche-copy reveal">
-          <span class="orange-pill" data-i18n="nichesPill">Niches</span>
-          <h2 data-i18n-html="nichesTitle">Each specialty is distinct. We speak your <em>industry's</em> language.</h2>
-          <p data-i18n="nichesText">
-            No matter your field, our experience spans multiple niches, ensuring we understand your
-            specific needs and challenges.
-          </p>
-        </div>
-
-        <div class="chip-stage reveal delay-1" aria-label="Industries">
-          <div class="chip-row">
-            <div class="chip-row-group">
-              <span data-i18n="chipEdtech">EdTech</span>
-              <span data-i18n="chipPremium">Premium Services</span>
-              <span data-i18n="chipFintech">Fintech</span>
-              <span data-i18n="chipSaas">SaaS</span>
-              <span class="chip-dark" data-i18n="chipCyber">Cybersecurity</span>
-            </div>
-          </div>
-          <div class="chip-row chip-row-offset">
-            <div class="chip-row-group">
-              <span data-i18n="chipIndustrial">Industrial Manufacturing</span>
-              <span data-i18n="chipMicro">Micro SaaS</span>
-              <span data-i18n="chipEcommerce">E-commerce</span>
-              <span data-i18n="chipInfluencers">Influencers</span>
-              <span class="chip-dark" data-i18n="chipRealEstate">Real estate</span>
-            </div>
-          </div>
-          <div class="chip-row">
-            <div class="chip-row-group">
-              <span data-i18n="chipHealthcare">Healthcare</span>
-              <span data-i18n="chipAgencies">Agencies</span>
-              <span data-i18n="chipLogistics">Logistics & Supply Chain</span>
-              <span class="chip-dark" data-i18n="chipHospitality">Hospitality</span>
-              <span data-i18n="chipFashion">Fashion</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="black-wrap process-wrap" id="process">
-        <div class="black-grid" aria-hidden="true"></div>
-        <div class="black-heading reveal">
-          <span class="orange-pill" data-i18n="processPill">How We Work</span>
-          <h2 data-i18n="processTitle">Our Consulting Process</h2>
-          <p data-i18n="processText">
-            Our process is designed to provide actionable insights and strategic recommendations that
-            drive measurable results. From in-depth analysis to tailored implementation, we guide you
-            every step of the way to ensure success.
-          </p>
-        </div>
-
-        <div class="process-grid">
-          <div class="process-list reveal">
-            <article class="process-step active">
-              <span class="step-icon">▢</span>
-              <div>
-                <h3 data-i18n="processOneTitle">Audit and Analysis</h3>
-                <p data-i18n="processOneText">Conducting comprehensive research to identify challenges, opportunities, and key growth areas.</p>
-              </div>
-            </article>
-            <article class="process-step">
-              <span class="step-icon">╱</span>
-              <h3 data-i18n="processTwoTitle">Strategic Planning</h3>
-            </article>
-            <article class="process-step">
-              <span class="step-icon">◖</span>
-              <h3 data-i18n="processThreeTitle">Client Empowerment</h3>
-            </article>
-            <article class="process-step">
-              <span class="step-icon">◌</span>
-              <h3 data-i18n="processFourTitle">Optional Implementation</h3>
-            </article>
-          </div>
-
-          <div class="dashboard-panel reveal delay-1">
-            <div class="mini-dashboard">
-              <div class="dash-row dash-head">
-                <span>Platform</span>
-                <span>♡</span>
-                <span>↔</span>
-                <span>Score</span>
-              </div>
-              <div class="dash-row">
-                <strong>Meta</strong>
-                <span>348</span>
-                <em>+3.87%</em>
-                <i>8/10</i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="difference section">
-        <div class="difference-heading reveal">
-          <span class="orange-pill" data-i18n="differencePill">The Difference We Make</span>
-          <h2 data-i18n="differenceTitle">Why Front?</h2>
-          <p data-i18n-html="differenceText">
-            At <strong>Front</strong>, we combine strategic clarity with executional precision to
-            help businesses grow through stronger websites, cleaner systems, and measurable digital
-            infrastructure.
-          </p>
-        </div>
-
-        <div class="difference-grid">
-          <article class="difference-card difference-card-dashboard reveal">
-            <div class="difference-dashboard">
-              <div class="difference-dashboard-sidebar">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <div class="difference-dashboard-main">
-                <div class="difference-dashboard-top">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-                <div class="difference-dashboard-ring"></div>
-                <div class="difference-dashboard-bars">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="difference-card difference-card-phone reveal delay-1">
-            <p class="difference-card-kicker" data-i18n="differencePhoneKicker">Built for modern growth</p>
-            <div class="difference-phone">
-              <div class="difference-phone-notch"></div>
-              <div class="difference-phone-screen">
-                <div class="difference-phone-badge"></div>
-                <div class="difference-phone-image"></div>
-                <div class="difference-phone-actions">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-              </div>
-            </div>
-            <p class="difference-phone-copy" data-i18n="differencePhoneText">
-              We combine consulting precision and digital execution to help businesses scale with
-              more confidence.
-            </p>
-          </article>
-
-          <article class="difference-card difference-card-copy reveal delay-2">
-            <p data-i18n="differenceCopyText">
-              From websites to full digital ecosystems, we create scalable systems designed to
-              support growth, efficiency, and stronger customer journeys.
-            </p>
-            <strong data-i18n="differenceCopyStrong">Websites, automation, CRM, and AI.</strong>
-          </article>
-
-          <article class="difference-card difference-card-note reveal">
-            <strong data-i18n="differenceNoteTitle">Consulting that turns into action</strong>
-            <p data-i18n="differenceNoteText">
-              We move from research and audits into implementation, so insights do not stay in
-              slides. They become real systems, pages, and workflows.
-            </p>
-          </article>
-
-          <article class="difference-card difference-card-office reveal delay-1">
-            <div class="difference-office-scene">
-              <span class="difference-window difference-window-a"></span>
-              <span class="difference-window difference-window-b"></span>
-              <span class="difference-window difference-window-c"></span>
-              <span class="difference-plant"></span>
-              <span class="difference-table"></span>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="cases section">
-        <div class="cases-heading reveal">
-          <h2 data-i18n="casesTitle">Cases</h2>
-          <p data-i18n="casesText">
-            Explore selected work across websites, platforms, and digital systems built to help
-            ambitious businesses grow.
-          </p>
-        </div>
-
-        <div class="cases-rail reveal delay-1">
-          <div class="cases-track" aria-label="Selected work carousel">
-            <a class="case-card-link" href="omerta-sea-experience.html" aria-label="Open Omerta Sea Experience case study">
-              <article class="case-card case-card-mobile">
-                <div class="case-visual case-visual-featured">
-                  <img
-                    src="assets/projects/omerta-project1.png"
-                    alt="Omerta Sea Experience featured project preview"
-                    loading="lazy"
-                    decoding="async"
-                    width="1537"
-                    height="1023"
-                  />
-                </div>
-                <div class="case-meta">
-                  <p class="case-category" data-i18n="caseOneCategory">Premium Sea Experience</p>
-                  <h3 data-i18n="caseOneTitle">Omerta Sea Experience</h3>
-                  <span data-i18n="caseOneYear">2023</span>
-                </div>
-              </article>
-            </a>
-
-            <a class="case-card-link" href="zante-blue-cruises.html" aria-label="Open Zante Blue Cruises case study">
-              <article class="case-card case-card-website">
-                <div class="case-visual case-visual-featured">
-                  <img
-                    src="assets/projects/zanteblue-project1.png"
-                    alt="Zante Blue Cruises featured project preview"
-                    loading="lazy"
-                    decoding="async"
-                    width="1537"
-                    height="1023"
-                  />
-                </div>
-                <div class="case-meta">
-                  <p class="case-category" data-i18n="caseTwoCategory">Private Boat Charters</p>
-                  <h3 data-i18n="caseTwoTitle">Zante Blue Cruises</h3>
-                  <span data-i18n="caseTwoYear">2025</span>
-                </div>
-              </article>
-            </a>
-
-            <article class="case-card case-card-brand">
-              <div class="case-visual">
-                <div class="case-brand-panel">
-                  <span class="case-brand-mark"></span>
-                  <span class="case-brand-word" data-i18n="caseThreeBrand">SPLITRIP</span>
-                </div>
-                <div class="case-shadow-panel"></div>
-              </div>
-              <div class="case-meta">
-                <p class="case-category" data-i18n="caseThreeCategory">Travel App</p>
-                <h3 data-i18n="caseThreeTitle">Splitrip</h3>
-                <span data-i18n="caseThreeYear">2021</span>
-              </div>
-            </article>
-
-            <article class="case-card case-card-system">
-              <div class="case-visual">
-                <div class="case-system-grid">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-                <div class="case-system-panel"></div>
-              </div>
-              <div class="case-meta">
-                <p class="case-category" data-i18n="caseFourCategory">CRM & Automation</p>
-                <h3 data-i18n="caseFourTitle">LeadFlow OS</h3>
-                <span data-i18n="caseFourYear">2025</span>
-              </div>
-            </article>
-          </div>
-          <p class="cases-hint" data-i18n="casesHint">Scroll to explore more work.</p>
         </div>
       </section>
 
       <section class="request-section section" id="contact">
         <div class="request-panel reveal">
           <span class="orange-pill" data-i18n="requestPill">Request</span>
-          <h2 data-i18n="requestTitle">Need a strategy-led website that feels as polished as your business?</h2>
+          <h2 data-i18n-html="requestTitle">Η Ανάπτυξη<br />της&nbsp;δουλειάς&nbsp;σου...<br />Δουλειά μας!<br />Επικοινώνησε Τώρα</h2>
           <a class="button button-dark" href="mailto:info@frontagency.com">info@frontagency.com</a>
         </div>
       </section>
