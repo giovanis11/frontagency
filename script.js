@@ -24,7 +24,7 @@ const translations = {
     navServices: "Services",
     navContact: "Contact",
     navRequest: "Request",
-    heroTitle: "Digital Consulting & Strategy",
+    heroTitle: "Websites for modern businesses",
     heroText:
       "Guiding companies to success through innovative strategies, market insights and integrated digital ecosystems globally.",
     heroCta: "Explore Services",
@@ -264,7 +264,7 @@ const translations = {
     navServices: "Υπηρεσίες",
     navContact: "Επικοινωνία",
     navRequest: "Αίτημα",
-    heroTitle: "Digital Consulting & Strategy",
+    heroTitle: "Ιστοσελίδες για σύγχρονες επιχειρήσεις",
     heroText:
       "Καθοδηγούμε επιχειρήσεις προς την ανάπτυξη με σύγχρονες στρατηγικές, market insights και ολοκληρωμένα digital ecosystems.",
     heroCta: "Δες Υπηρεσίες",
@@ -541,7 +541,7 @@ const scheduleChipRowSync = () => {
 
 const getInitialLanguage = () => {
   const savedLanguage = localStorage.getItem("front-language");
-  return savedLanguage && translations[savedLanguage] ? savedLanguage : "en";
+  return savedLanguage && translations[savedLanguage] ? savedLanguage : "el";
 };
 
 const setLanguage = (language) => {
