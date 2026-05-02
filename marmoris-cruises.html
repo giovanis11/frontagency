@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="el">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front | Marmoris Cruises Case Study</title>
+    <meta
+      name="description"
+      content="Case study για το Marmoris Cruises, ένα boat-rental website project από τη Front."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=front-business-page-12" />
+  </head>
+  <body data-page="marmorisCase">
+    <header class="floating-nav case-study-nav" aria-label="Main navigation" data-i18n-attr="aria-label:navAria">
+      <a class="logo-tile" href="index.html#home" aria-label="Front home">
+        <span>F</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html#home" data-i18n="navHome">Home</a>
+        <a href="for-businesses.html" data-i18n="navBusinesses">For Businesses</a>
+        <a href="index.html#cases" data-i18n="navAbout">About</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="request-link" href="index.html#contact" data-i18n="navContact">Contact</a>
+        <div class="language-toggle" aria-label="Language selector" data-i18n-attr="aria-label:languageAria">
+          <button class="language-button is-active" type="button" data-language="el" aria-pressed="true">
+            <span class="language-flag" aria-hidden="true">🇬🇷</span>
+          </button>
+          <button class="language-button" type="button" data-language="en" aria-pressed="false">
+            <span class="language-flag" aria-hidden="true">🇬🇧</span>
+          </button>
+        </div>
+      </div>
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        aria-label="Open menu"
+        data-i18n-attr="aria-label:menuOpenAria"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <button class="mobile-menu-overlay" type="button" aria-label="Close menu" data-menu-close data-i18n-attr="aria-label:menuCloseAria"></button>
+      <div class="mobile-menu-panel">
+        <div class="mobile-menu-header">
+          <strong data-i18n="menuLabel">Menu</strong>
+          <button class="mobile-menu-close" type="button" aria-label="Close menu" data-menu-close data-i18n-attr="aria-label:menuCloseAria">×</button>
+        </div>
+        <nav class="mobile-menu-links" aria-label="Mobile navigation" data-i18n-attr="aria-label:mobileMenuAria">
+          <a href="index.html#home" data-i18n="navHome">Home</a>
+          <a href="for-businesses.html" data-i18n="navBusinesses">For Businesses</a>
+          <a href="index.html#cases" data-i18n="navAbout">About</a>
+        </nav>
+        <div class="mobile-menu-footer">
+          <a class="mobile-menu-request" href="index.html#contact" data-i18n="navContact">Contact</a>
+          <div class="language-toggle mobile-menu-language" aria-label="Language selector" data-i18n-attr="aria-label:languageAria">
+            <button class="language-button is-active" type="button" data-language="el" aria-pressed="true">
+              <span class="language-flag" aria-hidden="true">🇬🇷</span>
+            </button>
+            <button class="language-button" type="button" data-language="en" aria-pressed="false">
+              <span class="language-flag" aria-hidden="true">🇬🇧</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main class="case-study-page">
+      <section class="case-study-hero section">
+        <div class="case-study-copy reveal">
+          <p class="case-study-kicker" data-i18n="marmorisKicker">Boat Renting in Zakynthos - MARMORIS CRUISES</p>
+          <h1 data-i18n="marmorisTitle">Marmoris Cruises</h1>
+
+          <div class="case-study-client-row">
+            <span class="case-study-client-mark" aria-hidden="true"></span>
+            <span data-i18n="marmorisClientName">Marmoris Cruises</span>
+          </div>
+        </div>
+
+        <div class="case-study-meta reveal delay-1">
+          <article>
+            <span data-i18n="marmorisMetaYearLabel">Year</span>
+            <strong data-i18n="marmorisMetaYearValue">2024</strong>
+          </article>
+          <article>
+            <span data-i18n="marmorisMetaClientLabel">Client</span>
+            <strong data-i18n="marmorisMetaClientValue">Marmoris Cruises</strong>
+          </article>
+          <article>
+            <span data-i18n="marmorisMetaIndustryLabel">Industry</span>
+            <strong data-i18n="marmorisMetaIndustryValue">Boat Rentals & Tourism</strong>
+          </article>
+          <article>
+            <span data-i18n="marmorisMetaScopeLabel">Scope</span>
+            <strong data-i18n="marmorisMetaScopeValue">Website, Cruise Discovery, Booking Experience</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="case-study-showcase reveal delay-2">
+        <div class="case-study-showcase-frame">
+          <img
+            class="case-study-featured-image"
+            src="assets/projects/marmoris-project-main.jpg"
+            alt="Marmoris Cruises featured project presentation"
+            width="2200"
+            height="1194"
+          />
+        </div>
+      </section>
+
+      <section class="case-study-results section">
+        <div class="case-study-results-link reveal">
+          <a class="case-study-link-pill" href="https://marmoris-cruises.com/" target="_blank" rel="noreferrer">
+            <span class="case-study-link-pill-label" data-i18n="caseStudyWebsiteLink">Visit Website</span>
+            <span class="case-study-link-pill-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="case-study-results-grid">
+          <article class="case-study-result-card case-study-result-card-insight reveal">
+            <h2 data-i18n="marmorisInsightTitle">Insight</h2>
+            <span class="case-study-result-label" data-i18n="marmorisInsightLabel">Focus</span>
+            <div class="case-study-result-metric">
+              <strong data-i18n="marmorisInsightValue">Booking-ready</strong>
+              <span aria-hidden="true">↗</span>
+            </div>
+            <p data-i18n="marmorisInsightText">
+              The experience was shaped around clearer cruise discovery, stronger trust signals, and a smoother path from first impression to direct contact.
+            </p>
+          </article>
+
+          <article class="case-study-result-card case-study-result-card-services reveal delay-1">
+            <h2 data-i18n="caseStudyServicesTitle">Services used</h2>
+            <div class="case-study-service-tags">
+              <span class="case-study-service-tag case-study-service-tag-a" data-i18n="marmorisServiceOne">Web Development</span>
+              <span class="case-study-service-tag case-study-service-tag-b" data-i18n="marmorisServiceTwo">UX/UI Design</span>
+              <span class="case-study-service-tag case-study-service-tag-c" data-i18n="marmorisServiceThree">Mobile UI</span>
+              <span class="case-study-service-tag case-study-service-tag-d" data-i18n="marmorisServiceFour">Cruise Discovery Structure</span>
+              <span class="case-study-service-tag case-study-service-tag-e" data-i18n="marmorisServiceFive">Tourism Positioning</span>
+              <span class="case-study-service-tag case-study-service-tag-f" data-i18n="marmorisServiceSix">Lead Capture Flow</span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Front</p>
+      <p><span id="year"></span> <span data-i18n="footerText">Digital consulting, strategy and websites.</span></p>
+    </footer>
+
+    <script src="script.js?v=front-business-page-12"></script>
+  </body>
+</html>

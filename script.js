@@ -12,6 +12,9 @@ const translations = {
     zanteCasePageTitle: "Front | Zante Blue Cruises Case Study",
     zanteCaseMetaDescription:
       "Case study for Zante Blue Cruises, a premium private-charter website project built by Front.",
+    marmorisCasePageTitle: "Front | Marmoris Cruises Case Study",
+    marmorisCaseMetaDescription:
+      "Case study for Marmoris Cruises, a Zakynthos boat-rental website project built by Front.",
     menuLabel: "Menu",
     menuOpenAria: "Open menu",
     menuCloseAria: "Close menu",
@@ -92,12 +95,15 @@ const translations = {
     casesTitle: "Our Work",
     casesText:
       "Explore selected work across websites, platforms, and digital systems built to help ambitious businesses grow.",
+    casesNavAria: "Project navigation",
+    casesPrevAria: "Show previous projects",
+    casesNextAria: "Show more projects",
     whyUsPill: "Why Us",
     whyUsTitle: "Why Businesses Choose Front",
-    whyUsOne: "Modern design",
-    whyUsTwo: "Custom solutions for every business",
-    whyUsThree: "Responsive development",
-    whyUsFour: "Fast and reliable delivery",
+    whyUsOne: "Fast and reliable delivery",
+    whyUsTwo: "Modern design",
+    whyUsThree: "Custom solutions for every business",
+    whyUsFour: "Development & responsiveness",
     whyUsFive: "Post-launch support",
     caseOneCategory: "Premium Sea Experience",
     caseOneTitle: "Omerta Sea Experience",
@@ -112,7 +118,7 @@ const translations = {
     caseFourCategory: "CRM & Automation",
     caseFourTitle: "LeadFlow OS",
     caseFourYear: "2025",
-    casesHint: "Scroll to explore more work.",
+    casesHint: "Scroll, swipe, or use the arrows to explore more work.",
     omertaKicker: "Premium Sea Rentals - OMERTA-SEA.COM",
     omertaTitle: "Omerta Sea Experience",
     omertaClientName: "Omerta Sea Experience",
@@ -175,6 +181,28 @@ const translations = {
     zanteServiceFour: "Cruise Journey Mapping",
     zanteServiceFive: "Tourism Positioning",
     zanteServiceSix: "Booking Flow Strategy",
+    marmorisKicker: "Boat Renting in Zakynthos - MARMORIS CRUISES",
+    marmorisTitle: "Marmoris Cruises",
+    marmorisClientName: "Marmoris Cruises",
+    marmorisMetaYearLabel: "Year",
+    marmorisMetaYearValue: "2024",
+    marmorisMetaClientLabel: "Client",
+    marmorisMetaClientValue: "Marmoris Cruises",
+    marmorisMetaIndustryLabel: "Industry",
+    marmorisMetaIndustryValue: "Boat Rentals & Tourism",
+    marmorisMetaScopeLabel: "Scope",
+    marmorisMetaScopeValue: "Website, Cruise Discovery, Booking Experience",
+    marmorisInsightTitle: "Insight",
+    marmorisInsightLabel: "Focus",
+    marmorisInsightValue: "Booking-ready",
+    marmorisInsightText:
+      "The experience was shaped around clearer cruise discovery, stronger trust signals, and a smoother path from first impression to direct contact.",
+    marmorisServiceOne: "Web Development",
+    marmorisServiceTwo: "UX/UI Design",
+    marmorisServiceThree: "Mobile UI",
+    marmorisServiceFour: "Cruise Discovery Structure",
+    marmorisServiceFive: "Tourism Positioning",
+    marmorisServiceSix: "Lead Capture Flow",
     requestPill: "Request",
     requestAccent: "Contact us now",
     requestTitle: "Upgrade your business.",
@@ -264,6 +292,9 @@ const translations = {
     zanteCasePageTitle: "Front | Zante Blue Cruises Case Study",
     zanteCaseMetaDescription:
       "Case study για το Zante Blue Cruises, ένα premium private-charter website project από τη Front.",
+    marmorisCasePageTitle: "Front | Marmoris Cruises Case Study",
+    marmorisCaseMetaDescription:
+      "Case study για το Marmoris Cruises, ένα website project ενοικίασης σκαφών στη Ζάκυνθο από τη Front.",
     menuLabel: "Μενού",
     menuOpenAria: "Άνοιγμα μενού",
     menuCloseAria: "Κλείσιμο μενού",
@@ -344,12 +375,15 @@ const translations = {
     casesTitle: "Δουλειές Μας",
     casesText:
       "Δες επιλεγμένη δουλειά σε websites, platforms και digital systems που σχεδιάστηκαν για να βοηθούν φιλόδοξες επιχειρήσεις να αναπτύσσονται.",
+    casesNavAria: "Πλοήγηση projects",
+    casesPrevAria: "Δες προηγούμενα projects",
+    casesNextAria: "Δες περισσότερα projects",
     whyUsPill: "Γιατί Εμάς",
-    whyUsTitle: "Γιατί να επιλέξεις την Ομάδα μας",
-    whyUsOne: "Σύγχρονος σχεδιασμός",
-    whyUsTwo: "Custom λύσεις για κάθε επιχείρηση",
-    whyUsThree: "Ανάπτυξη & Ανταπόκριση",
-    whyUsFour: "Γρήγορη και αξιόπιστη παράδοση",
+    whyUsTitle: "Τι Προσφέρει η Ομάδα μας",
+    whyUsOne: "Αξιόπιστη και Έγκαιρη παράδοση",
+    whyUsTwo: "Σύγχρονο Σχεδιασμό",
+    whyUsThree: "Custom λύσεις για κάθε επιχείρηση",
+    whyUsFour: "Ανάπτυξη & Ανταπόκριση",
     whyUsFive: "Υποστήριξη μετά την παράδοση",
     caseOneCategory: "Premium Sea Experience",
     caseOneTitle: "Omerta Sea Experience",
@@ -364,7 +398,7 @@ const translations = {
     caseFourCategory: "CRM & Automation",
     caseFourTitle: "LeadFlow OS",
     caseFourYear: "2025",
-    casesHint: "Κάνε scroll για να δεις περισσότερη δουλειά.",
+    casesHint: "Κάνε scroll, swipe ή χρησιμοποίησε τα βελάκια για να δεις περισσότερη δουλειά.",
     omertaKicker: "Premium Sea Rentals - OMERTA-SEA.COM",
     omertaTitle: "Omerta Sea Experience",
     omertaClientName: "Omerta Sea Experience",
@@ -427,6 +461,28 @@ const translations = {
     zanteServiceFour: "Cruise Journey Mapping",
     zanteServiceFive: "Tourism Positioning",
     zanteServiceSix: "Booking Flow Strategy",
+    marmorisKicker: "Ενοικίαση Σκαφών στη Ζάκυνθο - MARMORIS CRUISES",
+    marmorisTitle: "Marmoris Cruises",
+    marmorisClientName: "Marmoris Cruises",
+    marmorisMetaYearLabel: "Year",
+    marmorisMetaYearValue: "2024",
+    marmorisMetaClientLabel: "Client",
+    marmorisMetaClientValue: "Marmoris Cruises",
+    marmorisMetaIndustryLabel: "Industry",
+    marmorisMetaIndustryValue: "Boat Rentals & Tourism",
+    marmorisMetaScopeLabel: "Scope",
+    marmorisMetaScopeValue: "Website, Cruise Discovery, Booking Experience",
+    marmorisInsightTitle: "Insight",
+    marmorisInsightLabel: "Focus",
+    marmorisInsightValue: "Booking-ready",
+    marmorisInsightText:
+      "Η εμπειρία σχεδιάστηκε γύρω από πιο καθαρή ανακάλυψη των cruises, πιο δυνατά trust signals και πιο ομαλή μετάβαση από την πρώτη εντύπωση στην άμεση επικοινωνία.",
+    marmorisServiceOne: "Web Development",
+    marmorisServiceTwo: "UX/UI Design",
+    marmorisServiceThree: "Mobile UI",
+    marmorisServiceFour: "Cruise Discovery Structure",
+    marmorisServiceFive: "Tourism Positioning",
+    marmorisServiceSix: "Lead Capture Flow",
     requestPill: "Αίτημα",
     requestAccent: "Επικοινώνησε Τώρα",
     requestTitle: "Αναβάθμισε την Επιχείρηση σου.",
@@ -513,6 +569,9 @@ const navToggle = document.querySelector(".nav-toggle");
 const mobileMenu = document.querySelector(".mobile-menu");
 const menuCloseButtons = document.querySelectorAll("[data-menu-close]");
 const mobileMenuLinks = document.querySelectorAll(".mobile-menu a");
+const casesTrack = document.querySelector(".cases-track");
+const casesPrevButton = document.querySelector("[data-cases-prev]");
+const casesNextButton = document.querySelector("[data-cases-next]");
 const chipRows = document.querySelectorAll(".chip-row");
 let chipRowSyncFrame = null;
 
@@ -662,6 +721,45 @@ if (navToggle && mobileMenu) {
       closeMobileMenu();
     }
   });
+}
+
+const updateCasesNavButtons = () => {
+  if (!casesTrack || !casesPrevButton || !casesNextButton) {
+    return;
+  }
+
+  const maxScrollLeft = casesTrack.scrollWidth - casesTrack.clientWidth;
+  const hasOverflow = maxScrollLeft > 12;
+  const atStart = casesTrack.scrollLeft <= 12;
+  const atEnd = casesTrack.scrollLeft >= maxScrollLeft - 12;
+
+  casesPrevButton.hidden = !hasOverflow;
+  casesNextButton.hidden = !hasOverflow;
+  casesPrevButton.disabled = atStart;
+  casesNextButton.disabled = atEnd;
+};
+
+if (casesTrack && casesPrevButton && casesNextButton) {
+  casesPrevButton.addEventListener("click", () => {
+    const scrollAmount = Math.max(casesTrack.clientWidth * 0.72, 320);
+    casesTrack.scrollBy({
+      left: -scrollAmount,
+      behavior: "smooth",
+    });
+  });
+
+  casesNextButton.addEventListener("click", () => {
+    const scrollAmount = Math.max(casesTrack.clientWidth * 0.72, 320);
+    casesTrack.scrollBy({
+      left: scrollAmount,
+      behavior: "smooth",
+    });
+  });
+
+  casesTrack.addEventListener("scroll", updateCasesNavButtons, { passive: true });
+  window.addEventListener("resize", updateCasesNavButtons);
+  window.addEventListener("load", updateCasesNavButtons);
+  updateCasesNavButtons();
 }
 
 window.addEventListener("resize", scheduleChipRowSync);
