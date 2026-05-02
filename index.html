@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=front-business-page-10" />
+    <link rel="stylesheet" href="styles.css?v=front-business-page-11" />
   </head>
   <body>
     <header class="floating-nav" aria-label="Main navigation" data-i18n-attr="aria-label:navAria">
@@ -25,11 +25,9 @@
         <a href="#home" data-i18n="navHome">Home</a>
         <a href="for-businesses.html" data-i18n="navBusinesses">For Businesses</a>
         <a href="#cases" data-i18n="navAbout">Our Work</a>
-        <a href="#services" data-i18n="navServices">Services</a>
-        <a href="#contact" data-i18n="navContact">Contact</a>
       </nav>
       <div class="nav-actions">
-        <a class="request-link" href="#contact" data-i18n="navRequest">Request</a>
+        <a class="request-link" href="#contact" data-i18n="navContact">Contact</a>
         <div class="language-toggle" aria-label="Language selector" data-i18n-attr="aria-label:languageAria">
           <button class="language-button is-active" type="button" data-language="el" aria-pressed="true">
             <span class="language-flag" aria-hidden="true">🇬🇷</span>
@@ -63,11 +61,9 @@
           <a href="#home" data-i18n="navHome">Home</a>
           <a href="for-businesses.html" data-i18n="navBusinesses">For Businesses</a>
           <a href="#cases" data-i18n="navAbout">Our Work</a>
-          <a href="#services" data-i18n="navServices">Services</a>
-          <a href="#contact" data-i18n="navContact">Contact</a>
         </nav>
         <div class="mobile-menu-footer">
-          <a class="mobile-menu-request" href="#contact" data-i18n="navRequest">Request</a>
+          <a class="mobile-menu-request" href="#contact" data-i18n="navContact">Contact</a>
           <div class="language-toggle mobile-menu-language" aria-label="Language selector" data-i18n-attr="aria-label:languageAria">
             <button class="language-button is-active" type="button" data-language="el" aria-pressed="true">
               <span class="language-flag" aria-hidden="true">🇬🇷</span>
@@ -170,38 +166,53 @@
         </div>
       </section>
 
-      <section class="black-wrap services-wrap" id="services">
-        <div class="black-grid" aria-hidden="true"></div>
-        <div class="black-heading reveal">
-          <span class="orange-pill" data-i18n="servicesPill">Services</span>
-          <h2 data-i18n="servicesTitle">Comprehensive Digital Solutions</h2>
-          <p data-i18n="servicesText">
-            We specialize in various industries, ensuring customized solutions tailored to your needs,
-            regardless of complexity.
-          </p>
-          <span class="ghost-title" data-i18n="servicesGhost">What We Do</span>
-        </div>
-
-        <div class="service-board">
-          <article class="service-card service-card-wide reveal">
-            <span class="corner-icon">▣</span>
-            <h3 data-i18n="businessCardTitle">For Businesses</h3>
-            <p data-i18n="businessCardText">
-              We help businesses clarify their offer, modernize their website, and build a stronger
-              digital ecosystem that turns attention into qualified leads, better sales conversations,
-              and measurable growth.
-            </p>
-            <strong data-i18n="businessCardMetric">Sharper positioning. Better conversion. Cleaner growth.</strong>
-            <a href="for-businesses.html" aria-label="Open business consulting">↳</a>
-          </article>
+      <section class="why-us section">
+        <div class="why-us-shell reveal">
+          <div class="why-us-copy">
+            <span class="orange-pill" data-i18n="whyUsPill">Γιατί Εμάς</span>
+            <h2 data-i18n="whyUsTitle">Γιατί να επιλέξεις την Ομάδα μας</h2>
+          </div>
+          <div class="why-us-list" aria-label="Γιατί να επιλέξεις την Ομάδα μας" data-i18n-attr="aria-label:whyUsAria">
+            <article class="why-us-item">
+              <span class="why-us-bullet" aria-hidden="true">01</span>
+              <p data-i18n="whyUsOne">Σύγχρονος σχεδιασμός</p>
+            </article>
+            <article class="why-us-item">
+              <span class="why-us-bullet" aria-hidden="true">02</span>
+              <p data-i18n="whyUsTwo">Custom λύσεις για κάθε επιχείρηση</p>
+            </article>
+            <article class="why-us-item">
+              <span class="why-us-bullet" aria-hidden="true">03</span>
+              <p data-i18n="whyUsThree">Ανάπτυξη &amp; Ανταπόκριση</p>
+            </article>
+            <article class="why-us-item">
+              <span class="why-us-bullet" aria-hidden="true">04</span>
+              <p data-i18n="whyUsFour">Γρήγορη και αξιόπιστη παράδοση</p>
+            </article>
+            <article class="why-us-item">
+              <span class="why-us-bullet" aria-hidden="true">05</span>
+              <p data-i18n="whyUsFive">Υποστήριξη μετά την παράδοση</p>
+            </article>
+          </div>
         </div>
       </section>
 
       <section class="request-section section" id="contact">
         <div class="request-panel reveal">
-          <span class="orange-pill" data-i18n="requestPill">Request</span>
-          <h2 data-i18n-html="requestTitle">Η Ανάπτυξη<br />της&nbsp;δουλειάς&nbsp;σου...<br />Δουλειά μας!<br />Επικοινώνησε Τώρα</h2>
-          <a class="button button-dark" href="mailto:info@frontagency.com">info@frontagency.com</a>
+          <div class="request-copy">
+            <span class="request-title-accent" data-i18n="requestAccent">Επικοινώνησε Τώρα</span>
+          </div>
+          <div class="request-actions">
+            <a class="button button-dark contact-number" href="tel:+306948094394" aria-label="Call management">
+              <span class="contact-number-icon" aria-hidden="true">&#9742;</span>
+              <span>+30 6948094394</span>
+            </a>
+            <a class="button button-dark contact-number" href="tel:+306988702405" aria-label="Call technician">
+              <span class="contact-number-icon" aria-hidden="true">&#9742;</span>
+              <span>+30 6988702405</span>
+            </a>
+            <a class="button button-dark contact-email" href="mailto:info@frontagency.com">info@frontagency.com</a>
+          </div>
         </div>
       </section>
     </main>
@@ -211,6 +222,6 @@
       <p><span id="year"></span> <span data-i18n="footerText">Digital consulting, strategy and websites.</span></p>
     </footer>
 
-    <script src="script.js?v=front-business-page-10"></script>
+    <script src="script.js?v=front-business-page-11"></script>
   </body>
 </html>
