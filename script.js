@@ -1,20 +1,20 @@
 const translations = {
   en: {
-    pageTitle: "Front | Digital Consulting & Strategy",
+    pageTitle: "Front | Web Design, Digital Strategy & Automation Agency",
     metaDescription:
-      "Front helps ambitious businesses build digital strategy, high-performing websites, and conversion systems that drive measurable growth.",
-    businessesPageTitle: "Front | Digital Solutions for Businesses",
+      "Front is a digital agency for professional websites, digital strategy, CRM, automation and conversion systems that drive measurable growth.",
+    businessesPageTitle: "Digital Solutions for Businesses | Front",
     businessesMetaDescription:
-      "Front builds strategy-led websites, conversion systems, automation, and digital ecosystems for ambitious businesses.",
-    omertaCasePageTitle: "Front | Omerta Sea Experience Case Study",
+      "Premium websites, booking systems, CRM, automation, AI implementation and analytics for growing businesses.",
+    omertaCasePageTitle: "Omerta Sea Experience Website Case Study | Front",
     omertaCaseMetaDescription:
-      "Case study for Omerta Sea Experience, a premium sea-experience project built by Front.",
-    zanteCasePageTitle: "Front | Zante Blue Cruises Case Study",
+      "Case study for Omerta Sea Experience: premium hospitality website, booking flow, digital positioning and conversion planning by Front.",
+    zanteCasePageTitle: "Zante Blue Cruises Website Case Study | Front",
     zanteCaseMetaDescription:
-      "Case study for Zante Blue Cruises, a premium private-charter website project built by Front.",
-    marmorisCasePageTitle: "Front | Marmoris Cruises Case Study",
+      "Case study for Zante Blue Cruises: premium private-charter website, mobile cruise discovery and booking flow strategy by Front.",
+    marmorisCasePageTitle: "Marmoris Cruises Website Case Study | Front",
     marmorisCaseMetaDescription:
-      "Case study for Marmoris Cruises, a Zakynthos boat-rental website project built by Front.",
+      "Case study for Marmoris Cruises: Zakynthos boat-rental website, cruise discovery structure, mobile UI and lead capture flow by Front.",
     menuLabel: "Menu",
     menuOpenAria: "Open menu",
     menuCloseAria: "Close menu",
@@ -280,21 +280,21 @@ const translations = {
     footerText: "Digital consulting, strategy and websites.",
   },
   el: {
-    pageTitle: "Front | Digital Consulting & Strategy",
+    pageTitle: "Front | Web Design, Digital Strategy & Automation Agency",
     metaDescription:
-      "Η Front βοηθά φιλόδοξες επιχειρήσεις να χτίσουν digital strategy, δυνατά websites και conversion συστήματα που φέρνουν μετρήσιμη ανάπτυξη.",
-    businessesPageTitle: "Front | Digital Λύσεις για Επιχειρήσεις",
+      "Η Front είναι digital agency στην Ελλάδα για επαγγελματικές ιστοσελίδες, digital strategy, CRM, automation και conversion systems που οδηγούν σε μετρήσιμη ανάπτυξη.",
+    businessesPageTitle: "Digital Solutions for Businesses | Front",
     businessesMetaDescription:
-      "Η Front χτίζει strategy-led websites, conversion συστήματα, automations και digital ecosystems για φιλόδοξες επιχειρήσεις.",
-    omertaCasePageTitle: "Front | Omerta Sea Experience Case Study",
+      "Digital solutions για επιχειρήσεις: premium websites, booking systems, CRM, automation, AI implementation και analytics από τη Front.",
+    omertaCasePageTitle: "Omerta Sea Experience Website Case Study | Front",
     omertaCaseMetaDescription:
-      "Case study για το Omerta Sea Experience, ένα premium sea-experience project από τη Front.",
-    zanteCasePageTitle: "Front | Zante Blue Cruises Case Study",
+      "Case study για το Omerta Sea Experience: premium hospitality website, booking flow, digital positioning και conversion planning από τη Front.",
+    zanteCasePageTitle: "Zante Blue Cruises Website Case Study | Front",
     zanteCaseMetaDescription:
-      "Case study για το Zante Blue Cruises, ένα premium private-charter website project από τη Front.",
-    marmorisCasePageTitle: "Front | Marmoris Cruises Case Study",
+      "Case study για το Zante Blue Cruises: premium private-charter website, mobile cruise discovery και booking flow strategy από τη Front.",
+    marmorisCasePageTitle: "Marmoris Cruises Website Case Study | Front",
     marmorisCaseMetaDescription:
-      "Case study για το Marmoris Cruises, ένα website project ενοικίασης σκαφών στη Ζάκυνθο από τη Front.",
+      "Case study για το Marmoris Cruises: Zakynthos boat-rental website, cruise discovery structure, mobile UI και lead capture flow από τη Front.",
     menuLabel: "Μενού",
     menuOpenAria: "Άνοιγμα μενού",
     menuCloseAria: "Κλείσιμο μενού",
@@ -565,6 +565,10 @@ const yearElement = document.querySelector("#year");
 const revealElements = document.querySelectorAll(".reveal");
 const languageButtons = document.querySelectorAll("[data-language]");
 const metaDescription = document.querySelector('meta[name="description"]');
+const ogTitle = document.querySelector('meta[property="og:title"]');
+const ogDescription = document.querySelector('meta[property="og:description"]');
+const twitterTitle = document.querySelector('meta[name="twitter:title"]');
+const twitterDescription = document.querySelector('meta[name="twitter:description"]');
 const navToggle = document.querySelector(".nav-toggle");
 const mobileMenu = document.querySelector(".mobile-menu");
 const menuCloseButtons = document.querySelectorAll("[data-menu-close]");
@@ -639,6 +643,18 @@ const setLanguage = (language) => {
   if (metaDescription) {
     metaDescription.setAttribute("content", dictionary[descriptionKey] || dictionary.metaDescription);
   }
+
+  [ogTitle, twitterTitle].forEach((element) => {
+    if (element) {
+      element.setAttribute("content", dictionary[titleKey] || dictionary.pageTitle);
+    }
+  });
+
+  [ogDescription, twitterDescription].forEach((element) => {
+    if (element) {
+      element.setAttribute("content", dictionary[descriptionKey] || dictionary.metaDescription);
+    }
+  });
 
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.dataset.i18n;
